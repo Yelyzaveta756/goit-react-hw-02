@@ -1,0 +1,24 @@
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: inline;
+    background-color: greenyellow;
+    border: none;
+    border-radius: 4px;
+    padding: 7px;
+    margin: 0 5px
+}
+
+.feedback {
+    margin: 7px 0
+}
+
+.btn  {
+background-color: greenyellow;
+border: none;
+border-radius: 4px;
+padding: 7px;
+margin: 0 5px
+}
