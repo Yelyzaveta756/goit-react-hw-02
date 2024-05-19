@@ -1,0 +1,32 @@
+.friendList {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+}
+
+.userName {
+    font-weight: 500;
+    font-size: 18px;
+    padding: 5px 0;
+}
+
+.online {
+    color: green;
+  }
+
+.offline {
+    color: red; 
+  }
+
+.friendItem {
+    border: 2px solid black;
+    padding: 12px;
+    margin: 0 7px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.friendItem:hover {
+  background-color:rgba(213, 244, 87, 0.364);
+}

@@ -1,0 +1,58 @@
+.mainContainer {
+    margin: 0 auto;
+    width: 330px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    
+}
+
+.infoContainer {
+    border-bottom: 2px solid grey;
+    padding: 12px;
+}
+
+.profileImage {
+    border-radius: 50%;
+    background-color: rgba(25, 25, 25, 0.879);
+    width: 130px;
+    height: 130px;
+    margin: 0 auto;
+}
+
+.username {
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 14px;
+}
+
+.text {
+    padding-top: 5px;
+    color: grey;
+    text-align: center;
+}
+
+.statsList {
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+.statsItem {
+    border-right: 2px solid grey;
+    padding: 12px 30px;
+    text-align: center;
+}
+
+.statsItem:last-child {
+    border: none;
+}
+
+.spanInItem {
+    display: flex;
+    padding-bottom: 6px;
+}
